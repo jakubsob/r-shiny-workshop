@@ -1,0 +1,29 @@
+.page {
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.content {
+  padding: 2em;
+  border: 1px solid blue;
+  margin: 10px;
+  border-radius: 5px;
+  overflow: auto;
+  background-color: #fff;
+  justify-content: center;
+  align-items: center;
+  width: 35%;
+}
+
+#full:-webkit-full-screen {
+  height: 100%;
+  margin: 0;
+}
+#full:-ms-fullscreen {
+  height: 100%;
+}
+#full:fullscreen {
+  height: 100%;
+}
